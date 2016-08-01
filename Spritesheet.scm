@@ -48,6 +48,9 @@
                             )
                   )
 
+                  ; make sure the layer is visible
+                  (gimp-item-set-visible thisFrame TRUE)
+
                   ; add thisFrame to the Spritesheet
                   (gimp-image-add-layer theSpritesheet thisFrame 0)
 
